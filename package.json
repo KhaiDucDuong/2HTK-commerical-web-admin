@@ -1,5 +1,4 @@
 {
-  "homepage": "http://khaiducduong.github.io/2HTK-commerical-web-admin",
   "name": "@coreui/coreui-free-react-admin-template",
   "version": "4.5.0",
   "description": "CoreUI Free React Admin Template",
@@ -17,8 +16,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.js\"",
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "sh ./deploy-surge.sh",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand"
