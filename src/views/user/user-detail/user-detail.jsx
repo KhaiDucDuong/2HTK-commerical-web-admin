@@ -131,26 +131,6 @@ const UserDetails = () => {
             </CInputGroup>
           </CCol>
         </CRow>
-
-        <CRow className="mb-5">
-          <CCol xs={12} sm={6} lg={6}>
-            <CInputGroup className="mb-3">
-              <CInputGroupText id="ApplicationApprovalStatusInput">Approval Status</CInputGroupText>
-              <CFormSelect aria-label="ApplicationApprovalStatusInput">
-                <option value="1">Accepted</option>
-                <option value="2" selected>
-                  Denied
-                </option>
-              </CFormSelect>
-            </CInputGroup>
-          </CCol>
-
-          <CCol xs={12} sm={3} lg={2} className="text-end">
-            <CButton type="submit" className="mb-3">
-              Update Status
-            </CButton>
-          </CCol>
-        </CRow>
         <CButton>Ban</CButton>
       </CCardBody>
     </CCard>

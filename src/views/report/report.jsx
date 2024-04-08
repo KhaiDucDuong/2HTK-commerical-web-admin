@@ -122,10 +122,10 @@ const Reports = () => {
           <CTableBody>
             <CTableRow>
               <CTableHeaderCell scope="row">1</CTableHeaderCell>
-              <CTableDataCell>Shop như qq</CTableDataCell>
+              <CTableDataCell>Shop giao thiếu hàng, không trả lời khiếu nại</CTableDataCell>
               <CTableDataCell>Nguyễn Mạnh Tiến</CTableDataCell>
-              <CTableDataCell>25/12/2003</CTableDataCell>
-              <CTableDataCell>25/12/2003</CTableDataCell>
+              <CTableDataCell>25/12/2023</CTableDataCell>
+              <CTableDataCell>25/12/2023</CTableDataCell>
               <CTableDataCell>
                 <CButton
                   className="mb-3"
@@ -140,10 +140,10 @@ const Reports = () => {
 
             <CTableRow>
               <CTableHeaderCell scope="row">2</CTableHeaderCell>
-              <CTableDataCell>Ngô Đình Huy lỏ vãi</CTableDataCell>
+              <CTableDataCell>Chất lượng hàng không như trong ảnh mô tả</CTableDataCell>
               <CTableDataCell>Trần Sơn Hoàng</CTableDataCell>
-              <CTableDataCell>2/12/2003</CTableDataCell>
-              <CTableDataCell>2/12/2003</CTableDataCell>
+              <CTableDataCell>2/12/2023</CTableDataCell>
+              <CTableDataCell>2/12/2023</CTableDataCell>
               <CTableDataCell>
                 <CButton
                   className="mb-3"
@@ -158,10 +158,10 @@ const Reports = () => {
 
             <CTableRow>
               <CTableHeaderCell scope="row">3</CTableHeaderCell>
-              <CTableDataCell>Ngô Đình Huy lại lỏ ròi</CTableDataCell>
+              <CTableDataCell>Shop hủy đơn hàng không lí do</CTableDataCell>
               <CTableDataCell>Giấu mặt</CTableDataCell>
-              <CTableDataCell>25/12/2003</CTableDataCell>
-              <CTableDataCell>25/12/2003</CTableDataCell>
+              <CTableDataCell>25/12/2023</CTableDataCell>
+              <CTableDataCell>25/12/2023</CTableDataCell>
               <CTableDataCell>
                 <CButton
                   className="mb-3"

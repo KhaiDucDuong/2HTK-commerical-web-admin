@@ -102,13 +102,20 @@ const ReportDetails = () => {
             </CInputGroup>
           </CCol>
 
-          <CCol xs={12} sm={3} lg={2} className="text-end">
+          <CCol xs={12} sm={3} lg={2} className="text-start">
             <CButton type="submit" className="mb-3">
               Go to the shop
             </CButton>
           </CCol>
+
+          <CCol xs={12} sm={3} lg={2} className="text-center">
+            <CButton>Ban</CButton>
+          </CCol>
+
+          <CCol xs={12} sm={3} lg={2} className="text-end">
+            <CButton>Close case</CButton>
+          </CCol>
         </CRow>
-        <CButton>Ban</CButton>
       </CCardBody>
     </CCard>
   )
